@@ -1,4 +1,7 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Protest+Guerrilla&family=Rowdies:wght@300;400;700&display=swap');
+
 *{
       font-family: "Protest Guerrilla", sans-serif;
         font-weight: 400;
@@ -7,13 +10,18 @@
       }
     
     
-      h1{color: white;
-    }
+      h1{
+        color: white;
+        font-size: 90px;
+        font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  }
 
     p{
         color: white;
     }
-    
+
 .nav-logo{
    height: 200px;
    width: 200px;
@@ -25,3 +33,14 @@
 }
 
 /* hero text area  */
+.hero-text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.dream{
+    color: #98C1D9;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
