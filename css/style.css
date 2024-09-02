@@ -16,10 +16,16 @@
         font-family: "Rowdies", sans-serif;
   font-weight: 700;
   font-style: normal;
+  padding-top: 20px;
   }
 
     p{
         color: white;
+        font-family: "Rowdies", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 25px;
+        
     }
 
 .nav-logo{
@@ -37,10 +43,23 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
 .dream{
     color: #98C1D9;
     font-family: "Rowdies", sans-serif;
     font-weight: 700;
     font-style: normal;
+    font-size: 90px;
+}
+
+button{
+    height: 60px;
+    width: 200px;
+    background-color: #98C1D9;
+    color: black;
+    border-radius: 10px;
+    font-family: "Rowdies", sans-serif;
+    cursor: pointer;
+    border: none;
 }
